@@ -28,3 +28,7 @@
 /TopNAnalysis.xlsx
 /javadoc.xml
 /analysis/
+/dataset
+/.idea
+/repo
+/target

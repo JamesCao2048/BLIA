@@ -81,37 +81,37 @@ public class FSEProcess {
     static final String defaultDescp = "default";
     static final List<String> defaultComments = new LinkedList<String>();
     public static void main(String[] args) throws Exception{
-        String inFile = inputDict+"swt_sorted.xlsx";
+        String inFile = inputDict+"blia.xlsx";
         //String projectDict = "tomcat/";
         String projectDict = "";
-        List<BugRepo> bugs = parseBugRepos(inFile, projectDict);
+        List<BugRepo> bugs = parseBugRepos(inFile, projectDict,2);
         convertXML(bugs, outputDict+"swt.xml");
         return;
     }
-    private static List<BugRepo> parseBugRepos(String inFileName, String projectDict) throws Exception{
+    private static List<BugRepo> parseBugRepos(String inFileName, String projectDict, int sheetIndex) throws Exception{
         List<BugRepo> res = new LinkedList();
         Workbook wb = readExcel(inFileName);
-        Sheet sheet = wb.getSheetAt(0);
+        Sheet sheet = wb.getSheetAt(sheetIndex);
         int rownum = sheet.getPhysicalNumberOfRows();
         for(int i = 1; i< rownum; i++){
             Row row = sheet.getRow(i);
             String id = row.getCell(0).toString().split("\\.")[0];
             String openDate;
-            if(row.getCell(3).getCellType() == CellType.STRING){
-                openDate = row.getCell(3).toString().split("EDT")[0].trim()+":00";
+            if(row.getCell(1).getCellType() == CellType.STRING){
+                openDate = row.getCell(1).toString().split("EDT")[0].trim()+":00";
             }
             else
-                openDate = getDateValue(row.getCell(3));
-            String fixDate = getDateValue(row.getCell(12));
-            String summary = row.getCell(4).toString();
+                openDate = getDateValue(row.getCell(1));
+            String fixDate = getDateValue(row.getCell(6));
+            String summary = row.getCell(2).toString();
             //System.out.println(i);
-            String description = row.getCell(5) == null? defaultDescp: row.getCell(5).toString();
+            String description = row.getCell(3) == null? defaultDescp: row.getCell(3).toString();
             if(description.trim().length() == 0)
                 description = defaultDescp;
             //目前数据集中一个bugrepo只对应一个fix commit
             List<FixCommit> fixCommits = new LinkedList();
-            String commitId = row.getCell(9).toString();
-            List<FixFile> fixFiles = parseFiles(row.getCell(6).toString(), projectDict);
+            String commitId = row.getCell(5).toString();
+            List<FixFile> fixFiles = parseFiles(row.getCell(4).toString(), projectDict);
             fixCommits.add(new FixCommit(commitId, defaultAuthor, fixDate, fixFiles));
             res.add(new BugRepo(id,openDate,fixDate, summary,
                     description, defaultComments, fixCommits));

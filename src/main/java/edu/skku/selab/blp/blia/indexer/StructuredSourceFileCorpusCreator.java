@@ -113,7 +113,8 @@ public class StructuredSourceFileCorpusCreator extends SourceFileCorpusCreator {
 				}
 				
 				String fileName = "";
-				if (productName.contains(Property.ASPECTJ) || productName.contains(Property.TOMCAT)) {
+				//文件名全部都使用/分隔，而不是.分为
+				if (true) {
 					String absolutePath = file.getAbsolutePath();
 					String sourceCodeDirName = property.getSourceCodeDir();
 					int index = absolutePath.indexOf(sourceCodeDirName);

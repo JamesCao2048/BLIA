@@ -1,98 +1,607 @@
-75739 org.eclipse.swt.ole.win32.Variant.java 1
-77948 org.eclipse.swt.custom.CLabel.java 1
-78548 org.eclipse.swt.widgets.Button.java 4
-78559 org.eclipse.swt.widgets.Slider.java 1
-79107 org.eclipse.swt.widgets.List.java 4
-79481 org.eclipse.swt.custom.SashForm.java 1
-80120 org.eclipse.swt.custom.CTabFolder.java 1
-80276 org.eclipse.swt.custom.CBannerLayout.java 2
-78854 org.eclipse.swt.dnd.Clipboard.java 1
-80506 org.eclipse.swt.widgets.Shell.java 1
-81265 org.eclipse.swt.widgets.Tree.java 1
-58185 org.eclipse.swt.internal.image.WinBMPFileFormat.java 1
-83251 org.eclipse.swt.layout.FormAttachment.java 1
-82346 org.eclipse.swt.custom.CLabel.java 2
-83699 org.eclipse.swt.widgets.Control.java 19
-79419 org.eclipse.swt.internal.win32.OS.java 15
-83262 org.eclipse.swt.dnd.RTFTransfer.java 3
-80830 org.eclipse.swt.graphics.GC.java 1
-82905 org.eclipse.swt.graphics.GC.java 1
-84557 org.eclipse.swt.widgets.TableColumn.java 14
-86000 org.eclipse.swt.internal.image.JPEGFileFormat.java 5
-84012 org.eclipse.swt.custom.StyledText.java 1
-87363 org.eclipse.swt.widgets.Tree.java 7
-87676 org.eclipse.swt.widgets.Tree.java 1
-86294 org.eclipse.swt.widgets.Combo.java 4
-87855 org.eclipse.swt.widgets.Table.java 1
-90018 org.eclipse.swt.custom.CTabFolder.java 1
-87997 org.eclipse.swt.widgets.Table.java 3
-86631 org.eclipse.swt.graphics.Image.java 1
-81242 org.eclipse.swt.internal.mozilla.XPCOMObject.java 2
-88829 org.eclipse.swt.widgets.Table.java 1
-92017 org.eclipse.swt.graphics.Image.java 1
-92612 org.eclipse.swt.custom.CTabFolder.java 1
-92181 org.eclipse.swt.custom.CTabFolder.java 1
-91159 org.eclipse.swt.dnd.DropTarget.java 1
-79268 org.eclipse.swt.program.Program.java 1
-94467 org.eclipse.swt.widgets.Table.java 1
-94598 org.eclipse.swt.browser.Browser.java 14
-93724 org.eclipse.swt.dnd.DragSource.java 1
-97651 org.eclipse.swt.widgets.Tree.java 1
-97745 org.eclipse.swt.widgets.Table.java 1
-97177 org.eclipse.swt.widgets.Shell.java 4
-100040 org.eclipse.swt.widgets.Table.java 9
-97678 org.eclipse.swt.custom.SashForm.java 1
-78634 org.eclipse.swt.graphics.ImageData.java 1
-94603 org.eclipse.swt.widgets.Spinner.java 1
-96916 org.eclipse.swt.widgets.Spinner.java 1
-100387 org.eclipse.swt.custom.CTabFolder.java 1
-102794 org.eclipse.swt.layout.GridLayout.java 2
-104966 org.eclipse.swt.widgets.Link.java 1
-90258 org.eclipse.swt.widgets.Table.java 1
-107145 org.eclipse.swt.widgets.Widget.java 13
-92013 org.eclipse.swt.widgets.CoolBar.java 1
-96053 org.eclipse.swt.widgets.Spinner.java 1
-105772 org.eclipse.swt.custom.CLabel.java 1
-84609 org.eclipse.swt.widgets.Table.java 1
-99266 org.eclipse.swt.widgets.Table.java 1
-113971 org.eclipse.swt.widgets.Tree.java 1
-82277 org.eclipse.swt.widgets.CoolBar.java 1
-112358 org.eclipse.swt.graphics.RGB.java 1
-92341 org.eclipse.swt.widgets.Tree.java 2
-117574 org.eclipse.swt.graphics.GC.java 1
-103976 org.eclipse.swt.widgets.Spinner.java 1
-93380 org.eclipse.swt.dnd.DragSource.java 1
-106289 org.eclipse.swt.widgets.Tree.java 1
-104150 org.eclipse.swt.custom.TableCursor.java 3
-81264 org.eclipse.swt.widgets.Table.java 1
-99145 org.eclipse.swt.widgets.Link.java 3
-101354 org.eclipse.swt.graphics.ImageDataLoader.java 4
-108769 org.eclipse.swt.widgets.FileDialog.java 1
-85072 org.eclipse.swt.widgets.Shell.java 1
-102756 org.eclipse.swt.widgets.Combo.java 1
-81834 org.eclipse.swt.graphics.TextLayout.java 4
-106372 org.eclipse.swt.custom.StyledText.java 1
-115947 org.eclipse.swt.widgets.Display.java 18
-14654 org.eclipse.swt.custom.StyledText.java 1
-84906 org.eclipse.swt.widgets.Tree.java 11
-84911 org.eclipse.swt.widgets.Text.java 1
-82500 org.eclipse.swt.widgets.TabFolder.java 6
-92241 org.eclipse.swt.custom.StyledText.java 2
-108591 org.eclipse.swt.custom.StyledText.java 1
-108813 org.eclipse.swt.graphics.TextLayout.java 4
-78856 org.eclipse.swt.internal.win32.OS.java 4
-100095 org.eclipse.swt.dnd.URLTransfer.java 1
-111259 org.eclipse.swt.widgets.Tree.java 1
-91317 org.eclipse.swt.widgets.Spinner.java 1
-87460 org.eclipse.swt.custom.StyledText.java 1
-92757 org.eclipse.swt.custom.StyledText.java 1
-83408 org.eclipse.swt.custom.StyledText.java 1
-108236 org.eclipse.swt.widgets.Spinner.java 1
-104545 org.eclipse.swt.widgets.CoolBar.java 1
-95410 org.eclipse.swt.graphics.GC.java 1
-103863 org.eclipse.swt.widgets.Composite.java 1
-119192 org.eclipse.swt.custom.CCombo.java 1
-108792 org.eclipse.swt.custom.StyledText.java 1
-Top1: 66, Top5: 85, Top10: 88, Top1Rate: 0.673469387755102, Top5Rate: 0.8673469387755102, Top10Rate: 0.8979591836734694
-MRR: 0.7496257233636398
-MAP: 0.6520522467192551
+1 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 1
+3 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/ToolItem.java 2
+0 bundles/org.eclipse.swt/Eclipse SWT Program/motif/org/eclipse/swt/program/Program.java 1
+2 bundles/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32/OleFrame.java 1
+13 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 2
+18 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 24
+19 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 1
+20 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageData.java 1
+26 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 1
+28 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/FileDialog.java 1
+38 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolItem.java 1
+36 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 13
+116 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Menu.java 4
+119 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/internal/Converter.java 1
+120 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/ShellTab.java 17
+111 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 1
+126 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/FileDialog.java 1
+87 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Text.java 14
+128 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageData.java 1
+140 bundles/org.eclipse.swt/Eclipse SWT PI/carbon/org/eclipse/swt/internal/carbon/OS.java 6
+160 bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/win32/OS.java 24
+90 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 1
+172 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/Image.java 15
+82 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/javaviewer/JavaViewer.java 1
+188 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 45
+79 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolItem.java 2
+190 bundles/org.eclipse.swt/Eclipse SWT PI/carbon/org/eclipse/swt/internal/carbon/OS.java 2
+193 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Button.java 7
+194 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 11
+195 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/ProgressBar.java 18
+200 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 2
+210 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Text.java 5
+218 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/RowLayout.java 1
+227 bundles/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32/Variant.java 1
+230 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 41
+233 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 3
+235 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Decorations.java 9
+248 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/FontDialog.java 1
+249 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Caret.java 8
+254 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 11
+253 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 11
+256 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 1
+261 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/ButtonTab.java 11
+269 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Label.java 15
+234 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Text.java 5
+271 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/DialogTab.java 9
+276 bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/motif/org/eclipse/swt/dnd/DragSource.java 1
+281 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 3
+284 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 2
+290 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TabFolder.java 3
+298 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/ComboTab.java 22
+299 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/addressbook/AddressBook.java 1
+300 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/DialogTab.java 7
+304 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 3
+49 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 17
+307 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 4
+329 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/Font.java 14
+332 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+72 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 2
+335 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/GIFFileFormat.java 3
+336 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/Font.java 22
+339 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Text.java 20
+306 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 13
+314 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/FontData.java 1
+349 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Text.java 16
+61 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 1
+366 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/FormData.java 1
+368 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+369 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/List.java 3
+384 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/ColorDialog.java 1
+387 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Label.java 4
+393 bundles/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32/OLE.java 33
+395 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 3
+396 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+70 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/texteditor/TextEditor.java 5
+411 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/MenuItem.java 5
+412 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/FontData.java 1
+408 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 5
+424 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Label.java 6
+429 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 15
+439 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageLoader.java 1
+435 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 5
+440 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Scale.java 7
+448 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 42
+343 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolItem.java 1
+29 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/layoutexample/Tab.java 16
+493 bundles/org.eclipse.swt/Eclipse SWT PI/carbon/org/eclipse/swt/internal/carbon/OS.java 9
+504 tests/org.eclipse.swt.tests/JUnit Tests/org/eclipse/swt/tests/junit/browser/Browser2.java 8
+507 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 9
+513 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TabFolder.java 42
+515 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 28
+520 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/LZWCodec.java 1
+56 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 1
+533 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/ColorDialog.java 1
+526 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+524 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 14
+522 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Label.java 2
+534 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Button.java 19
+537 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 6
+542 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+545 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/TextLayout.java 10
+546 bundles/org.eclipse.swt/Eclipse SWT PI/carbon/org/eclipse/swt/internal/carbon/OS.java 2
+551 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 3
+563 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 18
+564 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 1
+571 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+574 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/CanvasTab.java 11
+575 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/MenuItem.java 1
+488 bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/motif/org/eclipse/swt/dnd/Clipboard.java 5
+358 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Canvas.java 7
+585 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 2
+452 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/TableTab.java 29
+591 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Tracker.java 1
+595 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 6
+600 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TableColumn.java 3
+590 tests/org.eclipse.swt.tests/JUnit Tests/org/eclipse/swt/tests/junit/browser/Browser1.java 22
+486 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+483 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/List.java 2
+602 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 26
+605 bundles/org.eclipse.swt/Eclipse SWT AWT/motif/org/eclipse/swt/awt/SWT_AWT.java 1
+609 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/DialogTab.java 7
+626 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+635 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/TextLayout.java 1
+637 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 2
+638 bundles/org.eclipse.swt/Eclipse SWT AWT/motif/org/eclipse/swt/awt/SWT_AWT.java 1
+640 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+642 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/addressbook/AddressBook.java 1
+644 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Label.java 18
+649 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 1
+657 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageLoader.java 5
+479 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 24
+659 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TreeItem.java 39
+668 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+677 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/MenuItem.java 23
+472 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 27
+687 bundles/org.eclipse.swt/Eclipse SWT AWT/motif/org/eclipse/swt/awt/SWT_AWT.java 1
+630 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 41
+697 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Button.java 9
+692 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+698 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 19
+700 bundles/org.eclipse.swt/Eclipse SWT Program/motif/org/eclipse/swt/program/Program.java 2
+468 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 37
+464 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 57
+460 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 4
+711 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 3
+712 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/GridData.java 1
+718 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 8
+720 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/TextLayout.java 1
+719 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 2
+721 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Sash.java 4
+732 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 6
+458 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/ToolBar.java 5
+709 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet2.java 36
+415 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/SWT.java 8
+413 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 16
+734 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 1
+275 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 17
+251 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 1
+180 bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/motif/org/eclipse/swt/dnd/DropTarget.java 6
+159 bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/motif/org/eclipse/swt/dnd/DropTarget.java 1
+156 bundles/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32/Variant.java 1
+741 bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/motif/org/eclipse/swt/dnd/DropTarget.java 1
+149 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Widget.java 26
+744 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/Cursor.java 2
+151 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Menu.java 5
+745 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 1
+747 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Slider.java 1
+148 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 59
+748 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 23
+771 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Tracker.java 1
+783 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 9
+788 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/RowLayout.java 10
+790 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 3
+792 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/TextStyle.java 2
+808 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 4
+127 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/MenuItem.java 8
+810 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 10
+815 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/fileviewer/FileViewer.java 2
+817 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Link.java 17
+821 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 2
+839 bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/win32/OS.java 5
+837 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/DialogTab.java 3
+850 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/GridLayout.java 3
+859 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/widgets/EventTable.java 30
+865 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Link.java 3
+867 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 3
+753 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/ProgressBar.java 1
+868 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TableColumn.java 12
+762 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/GridLayout.java 1
+763 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 4
+872 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 1
+870 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Widget.java 14
+861 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 3
+869 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 1
+857 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 48
+776 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Text.java 5
+772 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Combo.java 2
+707 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/widgets/Synchronizer.java 12
+704 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolItem.java 3
+685 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 3
+878 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Label.java 2
+879 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/Device.java 1
+885 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/events/SelectionEvent.java 21
+882 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet77.java 15
+886 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 51
+887 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+888 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/Font.java 17
+895 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 28
+896 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/DirectoryDialog.java 14
+902 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 29
+899 bundles/org.eclipse.swt/Eclipse SWT AWT/motif/org/eclipse/swt/awt/SWT_AWT.java 6
+903 bundles/org.eclipse.swt/Eclipse SWT AWT/motif/org/eclipse/swt/awt/SWT_AWT.java 20
+910 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 5
+873 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/Device.java 1
+922 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 4
+931 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/FormData.java 5
+934 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 5
+936 bundles/org.eclipse.swt/Eclipse SWT PI/carbon/org/eclipse/swt/internal/carbon/OS.java 10
+944 bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/motif/org/eclipse/swt/dnd/DropTarget.java 2
+946 bundles/org.eclipse.swt/Eclipse SWT Program/motif/org/eclipse/swt/program/Program.java 2
+958 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 2
+960 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Menu.java 11
+964 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 10
+972 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 6
+966 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/TableTab.java 21
+976 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 2
+982 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Caret.java 3
+986 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TreeItem.java 2
+990 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 39
+995 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/widgets/EventTable.java 1
+1002 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 6
+999 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 1
+1001 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 1
+581 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 29
+912 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 12
+937 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+1003 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TabFolder.java 3
+1007 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 1
+1011 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 8
+1012 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 2
+1014 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 4
+1015 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 50
+1026 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 2
+1052 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageData.java 1
+1043 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 5
+1067 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/FileFormat.java 2
+1056 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/ToolItem.java 2
+1069 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/GridLayout.java 2
+1085 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 5
+1095 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 4
+1098 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Text.java 13
+1101 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+1108 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Text.java 5
+1103 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 34
+1114 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 8
+1109 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 3
+1117 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/GIFFileFormat.java 2
+1261 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 3
+1263 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 11
+1282 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageLoader.java 1
+1283 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 2
+1285 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Spinner.java 2
+1248 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/FormLayout.java 1
+1291 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TableItem.java 20
+1247 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 6
+1349 bundles/org.eclipse.swt/Eclipse SWT/emulated/expand/org/eclipse/swt/widgets/ExpandBar.java 2
+1350 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet225.java 24
+1243 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 1
+1236 bundles/org.eclipse.swt/Eclipse SWT AWT/motif/org/eclipse/swt/awt/SWT_AWT.java 1
+1230 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 23
+1356 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet133.java 1
+1211 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+1196 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+1192 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/RGB.java 2
+1194 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Control.java 8
+1187 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+1186 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet203.java 32
+1184 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 9
+1358 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1359 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1366 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TreeItem.java 4
+1375 bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/motif/org/eclipse/swt/dnd/DropTarget.java 1
+1378 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 4
+1379 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageLoader.java 9
+1386 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 4
+1392 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+1396 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1166 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 3
+1160 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 3
+1159 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 2
+1427 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/PNGFileFormat.java 4
+1152 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 7
+1144 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 8
+1141 tests/org.eclipse.swt.tests/JUnit Tests/org/eclipse/swt/tests/junit/browser/Browser2.java 7
+1125 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 45
+1438 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 1
+1444 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet133.java 2
+1120 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 2
+1468 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 4
+1469 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1463 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/graphics/Path.java 2
+1474 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1475 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1119 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/FormAttachment.java 1
+1481 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/JPEGDecoder.java 21
+1485 bundles/org.eclipse.swt/Eclipse SWT PI/carbon/org/eclipse/swt/internal/carbon/OS.java 2
+1498 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+1509 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 3
+1525 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 12
+1466 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/graphics/Path.java 2
+1538 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 9
+1562 bundles/org.eclipse.swt/Eclipse SWT/emulated/expand/org/eclipse/swt/widgets/ExpandBar.java 3
+1561 bundles/org.eclipse.swt/Eclipse SWT Program/motif/org/eclipse/swt/program/Program.java 2
+1568 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 1
+1572 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+1578 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+1585 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet260.java 1
+1587 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 4
+1115 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 9
+1588 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/TreeTab.java 6
+1591 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 2
+1595 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+1597 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 4
+1608 bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/win32/OS.java 12
+1618 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 2
+1609 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 20
+1533 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TabItem.java 57
+1621 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TreeItem.java 2
+1422 bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/gdip/Gdip.java 25
+1672 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+1678 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/TextLayout.java 24
+1679 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 7
+1681 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 6
+1685 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 8
+1691 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/TextLayout.java 14
+1694 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+1695 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 7
+1699 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet132.java 1
+1706 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 5
+1708 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1437 bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/win32/OS.java 1
+1713 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 3
+1717 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 5
+1729 bundles/org.eclipse.swt/Eclipse SWT PI/wpf/org/eclipse/swt/internal/wpf/OS.java 37
+1744 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1749 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/PngEncoder.java 25
+1753 bundles/org.eclipse.swt/Eclipse SWT PI/wpf/org/eclipse/swt/internal/wpf/OS.java 13
+1342 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 4
+1340 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 24
+1758 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 15
+1754 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/dnd/DNDExample.java 4
+1762 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 4
+1328 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Label.java 15
+1781 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 3
+1787 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/widgets/Synchronizer.java 39
+1803 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1808 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 5
+1807 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet265.java 7
+1711 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 7
+1317 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TableItem.java 1
+1292 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TableItem.java 6
+1846 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 3
+1853 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1858 bundles/org.eclipse.swt/Eclipse SWT PI/wpf/org/eclipse/swt/internal/wpf/OS.java 4
+1863 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 4
+1864 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 8
+1870 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 3
+1871 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+1877 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+1892 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 5
+1895 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 4
+1899 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Link.java 1
+1902 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 3
+1907 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+1908 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+1909 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/layout/RowLayout.java 3
+1920 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/GIFFileFormat.java 2
+1921 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TabFolder.java 2
+1922 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+1923 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1925 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1937 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/Device.java 13
+1938 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 6
+1941 bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/motif/org/eclipse/swt/dnd/URLTransfer.java 1
+1943 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TableItem.java 16
+1945 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+1947 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+1838 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/Tab.java 31
+1834 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+1964 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TableItem.java 1
+1965 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+1978 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+1987 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 1
+2000 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/Tab.java 13
+1990 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 31
+2001 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet223.java 1
+2008 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 9
+2011 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 2
+2014 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 4
+2015 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 7
+2018 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 8
+2023 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 9
+2024 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2026 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2028 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 3
+2032 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+2038 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 24
+2045 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+2044 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/Tab.java 22
+2040 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 39
+2048 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageData.java 1
+2052 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+2053 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 7
+2054 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/Resource.java 1
+2060 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 10
+1831 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/graphics/Path.java 7
+2075 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2079 bundles/org.eclipse.swt/Eclipse SWT Browser/common/org/eclipse/swt/browser/Browser.java 3
+2085 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 3
+2086 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 7
+2090 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TabItem.java 9
+2092 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 53
+2095 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 10
+2100 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/Image.java 3
+2105 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/Rectangle.java 3
+2108 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/SWT.java 1
+2117 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/NSString.java 38
+2118 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/ToolTip.java 2
+2120 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+2123 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 4
+2148 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 5
+2145 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/OS.java 21
+2152 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 1
+2177 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 41
+2183 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 5
+2188 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/ShellTab.java 29
+2190 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/SashTab.java 5
+2214 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+2217 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 1
+2219 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/TextLayout.java 29
+2228 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet207.java 1
+2230 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+2238 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/TextStyle.java 3
+2240 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 3
+2242 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 5
+2245 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/NSObject.java 16
+2251 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/NSTableView.java 15
+2260 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/NSTableView.java 30
+2267 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2277 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/OS.java 21
+2288 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Text.java 2
+1832 bundles/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32/OleFrame.java 3
+1830 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/graphics/Path.java 3
+2348 bundles/org.eclipse.swt.tools/src/org/eclipse/swt/tools/views/MacGeneratorView.java 16
+2370 bundles/org.eclipse.swt/Eclipse SWT Browser/common/org/eclipse/swt/browser/WindowEvent.java 3
+2398 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/External.java 7
+2400 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/texteditor/TextEditor.java 1
+2413 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+1822 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/OS.java 27
+1816 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/Tab.java 25
+1794 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 17
+2438 bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/motif/org/eclipse/swt/dnd/DropTarget.java 2
+1724 bundles/org.eclipse.swt/Eclipse SWT PI/wpf/org/eclipse/swt/internal/wpf/OS.java 31
+1607 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+1671 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 2
+1658 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 4
+1662 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet139.java 1
+1646 bundles/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32/OleFrame.java 4
+1641 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 5
+1571 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+1635 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 1
+2475 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2476 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/NSSavePanel.java 58
+2479 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageData.java 1
+2486 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/OS.java 20
+2488 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/DialogTab.java 1
+2512 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet197.java 2
+2516 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 14
+2520 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+2521 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+2523 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Tree.java 2
+2526 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet165.java 12
+2535 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/texteditor/TextEditor.java 8
+2569 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/GC.java 3
+2574 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet217.java 56
+2584 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/PNGFileFormat.java 37
+2590 bundles/org.eclipse.swt/Eclipse SWT Browser/common/org/eclipse/swt/browser/Browser.java 14
+2599 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 5
+2600 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+2615 bundles/org.eclipse.swt/Eclipse SWT PI/carbon/org/eclipse/swt/internal/carbon/OS.java 1
+2616 bundles/org.eclipse.swt/Eclipse SWT PI/carbon/org/eclipse/swt/internal/carbon/OS.java 34
+2617 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 28
+2623 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+2630 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 2
+2627 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 22
+2637 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+2638 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/PngEncoder.java 1
+2648 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+2660 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/PromptDialog.java 8
+2663 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2665 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+2667 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+2677 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2678 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2680 bundles/org.eclipse.swt/Eclipse SWT Printing/motif/org/eclipse/swt/printing/PrintDialog.java 3
+2681 bundles/org.eclipse.swt/Eclipse SWT PI/carbon/org/eclipse/swt/internal/cocoa/Cocoa.java 2
+2682 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 1
+2688 bundles/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32/OleFrame.java 6
+2698 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+2704 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/OS.java 14
+2707 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 11
+2709 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 53
+2730 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2733 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/graphics/TextLayout.java 1
+2752 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+2753 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 3
+2763 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 7
+2765 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/Resource.java 12
+2769 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+2772 bundles/org.eclipse.swt/Eclipse SWT PI/carbon/org/eclipse/swt/internal/carbon/OS.java 3
+2777 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 3
+2779 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 2
+2805 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/Table.java 23
+2813 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+2814 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/OS.java 21
+2815 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 2
+2828 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/OS.java 1
+2830 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 12
+2837 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/TextStyle.java 1
+2840 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Composite.java 1
+2845 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2861 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 27
+2879 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet40.java 16
+2880 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2885 bundles/org.eclipse.swt/Eclipse SWT OLE Win32/win32/org/eclipse/swt/ole/win32/OleFrame.java 30
+2889 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 3
+2890 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2904 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/OS.java 4
+2906 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+2908 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+2911 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+2916 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 5
+2918 bundles/org.eclipse.swt/Eclipse SWT/carbon/org/eclipse/swt/widgets/TrayItem.java 13
+2922 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2926 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 7
+2951 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 29
+2952 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 16
+2960 bundles/org.eclipse.swt/Eclipse SWT WebKit/win32/org/eclipse/swt/browser/WebUIDelegate.java 2
+2962 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+2966 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+2984 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/OS.java 4
+2993 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+2990 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/NSEvent.java 54
+3001 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/events/KeyEvent.java 34
+3006 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 4
+3007 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/SWT.java 11
+3009 bundles/org.eclipse.swt/Eclipse SWT PI/win32/org/eclipse/swt/internal/win32/OS.java 7
+3017 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+3019 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+3020 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+3021 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+3022 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+3023 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+3024 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+3033 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/graphics/ImageLoader.java 1
+3059 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+3060 bundles/org.eclipse.swt/Eclipse SWT Browser/common/org/eclipse/swt/browser/WebBrowser.java 7
+3061 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/OS.java 20
+3067 bundles/org.eclipse.swt/Eclipse SWT Browser/common/org/eclipse/swt/browser/WebBrowser.java 6
+3075 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 2
+3074 bundles/org.eclipse.swt/Eclipse SWT PI/cocoa/org/eclipse/swt/internal/cocoa/NSWindow.java 23
+3076 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+3081 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/FileFormat.java 15
+3095 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 4
+3094 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/internal/image/GIFFileFormat.java 8
+3134 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+3135 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+3136 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+3139 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CLabel.java 1
+3147 bundles/org.eclipse.swt/Eclipse SWT Browser/common/org/eclipse/swt/browser/Browser.java 5
+3149 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+3150 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 3
+3175 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+3190 bundles/org.eclipse.swt/Eclipse SWT/emulated/coolbar/org/eclipse/swt/widgets/CoolBar.java 3
+3200 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+3202 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+3211 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 6
+3233 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 1
+1632 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Shell.java 4
+1594 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 2
+1630 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/SWT.java 48
+1629 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 4
+1622 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 6
+2942 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/widgets/Synchronizer.java 4
+2939 bundles/org.eclipse.swt/Eclipse SWT Browser/win32/org/eclipse/swt/browser/WebSite.java 33
+2935 examples/org.eclipse.swt.snippets/src/org/eclipse/swt/snippets/Snippet345.java 1
+2929 bundles/org.eclipse.swt/Eclipse SWT Mozilla/common/org/eclipse/swt/browser/Mozilla.java 1
+2467 bundles/org.eclipse.swt/Eclipse SWT PI/gtk/org/eclipse/swt/internal/gtk/OS.java 6
+2432 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 3
+2428 bundles/org.eclipse.swt/Eclipse SWT/common/org/eclipse/swt/widgets/Synchronizer.java 5
+2317 bundles/org.eclipse.swt/Eclipse SWT Drag and Drop/motif/org/eclipse/swt/dnd/DragSource.java 2
+2307 bundles/org.eclipse.swt/Eclipse SWT/motif/org/eclipse/swt/widgets/Display.java 41
+2296 examples/org.eclipse.swt.examples/src/org/eclipse/swt/examples/controlexample/TextTab.java 22
+1850 bundles/org.eclipse.swt/Eclipse SWT Custom Widgets/common/org/eclipse/swt/custom/CCombo.java 1
+Top1: 168, Top5: 382, Top10: 456, Top20: 522, Top50: 595, Top1Rate: 0.05164463572087304, Top5Rate: 0.11743006455579465, Top10Rate: 0.1401782969566554，Top20Rate: 0.16046726098985553，Top50Rate: 0.18290808484475868
+MRR: 0.08142699851945444
+MAP: 0.07889689034910355

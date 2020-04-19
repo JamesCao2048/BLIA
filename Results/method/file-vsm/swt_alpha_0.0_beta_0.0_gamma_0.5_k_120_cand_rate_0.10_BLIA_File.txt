@@ -1,0 +1,3 @@
+Top1: 0, Top5: 0, Top10: 0, Top20: 0, Top50: 0, Top1Rate: 0.0, Top5Rate: 0.0, Top10Rate: 0.0，Top20Rate: 0.0，Top50Rate: 0.0
+MRR: 0.0
+MAP: 0.0

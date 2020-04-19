@@ -352,6 +352,11 @@ public class BLIA {
 	 */
 	private void combine(HashMap<Integer, IntegratedAnalysisValue> integratedAnalysisValues, double alpha, double beta,
 			boolean includeStackTrace) {
+		//消融实验一 仅保留vsm要求，要求alpha、beta均为0
+		//alpha = 0; beta = 0;
+		//消融实验二，保留vsm和stack。只要sim为0就行，beta为0
+		//消融实验三，只要失去com。只要beta为0
+		//beta = 0;
 		Iterator<Integer> integratedAnalysisValuesIter = integratedAnalysisValues.keySet().iterator();
 		while (integratedAnalysisValuesIter.hasNext()) {
 			int sourceFileVersionID = integratedAnalysisValuesIter.next();
@@ -395,6 +400,8 @@ public class BLIA {
 	 */
 	private void combineForMethodLevel(HashMap<Integer, ExtendedIntegratedAnalysisValue> integratedMethodAnalysisValues, double gamma) {
 		Iterator<Integer> integratedMethodAnalysisValuesIter = integratedMethodAnalysisValues.keySet().iterator();
+		//消融实验四，消除Vsm影响，gamma = 1
+		//gamma = 1;
 		while (integratedMethodAnalysisValuesIter.hasNext()) {
 			int methodID = integratedMethodAnalysisValuesIter.next();
 			
